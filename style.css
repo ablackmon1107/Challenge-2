@@ -1,11 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box
+}
+header {
+  padding: 20px 35px;
+  background-color: #863851;
+}
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-  }
-  
-  header a {
-    color: #fce138;
-  }
-  
+  font-weight: bold;
+  font-size: 36px;
+  color: #442831;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: #f6e5eb;
+}  
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+.hero {
+  background-image: url("/Users/aireealblackmon/Documents/Challenge2/assets/photo-1516259762381-22954d7d3ad2.jpeg");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  position: static;
+}
+.hero-form {
+  background-color: #4a6f79;
+  padding: 20px;
+  width: 500px;
+  color: #f6e5eb;
+  border: solid 3px #024e76;
+  position: absolute;
+  bottom: 30%;
+  right: -25px;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #f6e5eb;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.hero-form label {
+  margin: 0 5px;
+}
+.hero-form button {
+  color: #4a6f79;
+  background-color: #f6e5eb;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.pt1 {
+  text-align: center;
+}
+.pt1 h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+  display: inline-block;
+
+}
+.pt2 {
+  text-align: center;
+}
+.pt2 h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+  display: inline-block;
+
+}
+.pt3 {
+  text-align: center;
+}
+.pt3 h2{
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+  display: inline-block;
+}
+.pt4 {
+  text-align: center;
+}
+.pt4 h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+  display: inline-block;
+
+}
+
+footer {
+  background: #863851;
+  width: 100%
+  padding 40px 35px;
+}
+footer h2 {
+  display: inline;
+  color: #f6e5eb;
+  font-size: 30px;
+  margin: 0;
+}
+footer div {
+  float:right;
+  line-height: 1.5;
+  text-align: right;
+  color: #f6e5eb;
+}
+section {
+  padding: 60px;
+}
