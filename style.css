@@ -33,7 +33,7 @@ header nav ul li a {
   font-size: 22px;
 }
 .hero {
-  background-image: url("/Users/aireealblackmon/Documents/Challenge2/assets/photo-1516259762381-22954d7d3ad2.jpeg");
+  background-image: url("assets/photo-1516259762381-22954d7d3ad2.jpeg");
   height: 450px;
   background-size: cover;
   background-position: center;
